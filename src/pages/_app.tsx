@@ -1,9 +1,13 @@
-import '../styles/global.scss'
+import { Header } from '../components/Header'
+import '../styles/global.scss';
 
-function App(){
+function MyApp({Component, pageProps}){
   return (
-    <h1>Hello World!</h1>
+    <div>
+      <Header />
+      <Component {...pageProps}/>
+    </div>
   )
 }
 
-export default App
+export default MyApp
