@@ -1,9 +1,12 @@
-// SPA
-// SSR
-// SSG
+import { GetStaticProps } from 'next';
 
-import { log } from "node:console"
-import { useEffect } from "react"
+type HomeProps = {
+  episodes: Array<{
+    id: string;
+    title: string;
+    members: string
+  }>
+}
 
 export default function Home(props) {
   console.log(props.episodes);
@@ -14,7 +17,7 @@ export default function Home(props) {
   )
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const response = await fetch('http://localhost:3333/episodes')
   const data = await response.json()
 
@@ -22,7 +25,7 @@ export async function getStaticProps() {
     props: {
       episodes: data,
     },
-    revalidade: 60 * 60 * 8,
+    revalidate: 60 * 60 * 8,
   }
 
 }
