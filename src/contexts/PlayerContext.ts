@@ -4,13 +4,14 @@ type Episode = {
   title: string;
   members: string;
   thumbnail: string;
-  duration: string;
+  duration: number;
   url: string
 }
 
 type PlayerContextData = {
   episodeList: Episode[];
   currentEpisodeIndex: number;
+  isPlaying: boolean;
   play: (episode: Episode) => void;
 };
 
