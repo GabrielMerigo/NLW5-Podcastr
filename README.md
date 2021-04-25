@@ -1,7 +1,3 @@
-<h1 align="center">
-    <img alt="Podcastr" title="Podcastr" src=".github/podcastr.svg" />
-</h1>
-
 <p align="center">
   <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Como Iniciar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
