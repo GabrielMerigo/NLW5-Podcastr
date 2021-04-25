@@ -1,6 +1,8 @@
 .playerContainer {
-  width: 22.5rem;
-  padding: 3rem 4rem;
+  width: 22rem;
+  height: 100vh;
+  padding: 12px 4rem;
+  font-size: 0.9rem;
 
   background: var(--purple-500);
   color: var(--white);
@@ -17,6 +19,7 @@
   }
 
   strong {
+    padding-bottom:1rem;
     font-family: Lexend, sans-serif;
     font-weight: 600;
   }
@@ -39,16 +42,17 @@
 
   strong {
     display: block;
-    margin-top: 1rem;
-    font: 600 1.25rem Lexend, sans-serif;
-    line-height: 1.75rem;
+    margin-top: 0.5rem;
+    font: 600 1rem Lexend, sans-serif;
+    line-height: 1.50rem;
   }
 
   span {
     display: block;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
     opacity: 0.6;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
   }
 }
 
@@ -72,12 +76,20 @@
 .progress {
   display: flex;
   align-items: center;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
 
   span {
     display: inline-block;
-    width: 4rem;
+    width: 4.5rem;
     text-align: center;
+  }
+
+  span:first-child{
+    padding-right: 10px;
+  }
+
+  span:last-child{
+    padding-left: 10px;
   }
 
   .slider {
@@ -85,6 +97,7 @@
 
     .emptySlider {
       width: 100%;
+      padding: 0 10px;
       height: 4px;
       background: var(--purple-300);
       border-radius: 2px;
@@ -115,23 +128,22 @@
       filter: brightness(0.8)
     } 
 
-
-    
     &.isActive {
-      filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg)
+      filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg);
     }
 
     &.isActive:hover {
-      filter: brightness(0.6) invert(0.35) sepia(1) saturate(3) hue-rotate(100deg)
+      filter: brightness(0.6) invert(0.35) sepia(1) saturate(3) hue-rotate(100deg);
     }
 
 
     &.playButton {
-      width: 4rem;
-      height: 3rem;
+      width:8rem;
+      height:3rem;
+      
       border-radius: 1rem;
       background: var(--purple-300);
-
+      
       &:hover {
         filter: brightness(0.95)
       }
