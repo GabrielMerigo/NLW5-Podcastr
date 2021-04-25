@@ -24,7 +24,7 @@
   <img alt="Moveit" src=".github/icon.svg" width="120px">
 </p>
 
-## 🧪 Technologias
+## 🧪 Tecnologias
 
 Este projeto foi desenvolvido usando as seguintes tecnologias:
 
@@ -32,7 +32,7 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 🚀 Getting started
+## 🚀 Como iniciar o projeto:
 
 Clone o projeto e acesse a pasta
 
@@ -43,14 +43,14 @@ $ git clone https://github.com/C0bal/reactjs-podcastr-nlw5 && cd reactjs-podcast
 Siga os passos abaixo
 
 ```bash
-# Install the dependencies
+# Instalar Depenências
 $ yarn
 
-# Start the project
+# Iniciar Projeto
 $ yarn dev
 ```
 
-## 💻 Project
+## 💻 Projeto
 
 [Podcastr](https://podcastr-nlw.vercel.app/) para trazê-lo ainda mais perto dos melhores podcasts de tecnologia! 💜
 
@@ -71,4 +71,4 @@ Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE] (
 ---
 
 <p align="center">Feito por Gabriel Merigo com 🖤</p>
-<p align="center">Inpirado em C0bal</p>
+<p align="center">Inpirado em Guilherme Capitão</p>
