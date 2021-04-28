@@ -45,7 +45,6 @@ $ yarn
 # Iniciar Projeto
 $ yarn dev
 ```
-
 ## 💻 Projeto
 
 [Podcastr](https://podcastr-nlw.vercel.app/) para trazê-lo ainda mais perto dos melhores podcasts de tecnologia! 💜
